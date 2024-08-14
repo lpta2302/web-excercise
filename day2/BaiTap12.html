@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form Đăng Ký</title>
+</head>
+<body>
+
+    <h2>Form Đăng Ký</h2>
+    <form name="myForm">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" required minlength="4" maxlength="30"><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="province">Tỉnh:</label><br>
+        <select id="province" name="province">
+            <option value="HCM">HCM</option>
+            <option value="Vũng Tàu">Vũng Tàu</option>
+            <option value="Bình Dương">Bình Dương</option>
+            <option value="Khác">Khác</option>
+        </select><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required autofocus><br><br>
+
+        <label for="website">Website:</label><br>
+        <input type="url" id="website" name="website"><br><br>
+
+        <label>Giới tính:</label><br>
+        <input type="radio" id="male" name="gender" value="Nam">
+        <label for="male">Nam</label><br>
+        <input type="radio" id="female" name="gender" value="Nữ">
+        <label for="female">Nữ</label><br><br>
+
+        <label for="birthdate">Ngày sinh:</label><br>
+        <input type="date" id="birthdate" name="birthdate" min="2023-12-02"><br><br>
+
+        <label for="score">Điểm:</label><br>
+        <input type="number" id="score" name="score" min="0" max="10" step="0.5"><br><br>
+
+        <label for="color">Màu yêu thích:</label><br>
+        <input type="color" id="color" name="color" value="#ff0000"><br><br>
+
+        <input type="submit" value="Đăng ký">
+    </form>
+
+</body>
+
+</html>

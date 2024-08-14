@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        *:hover {
+            outline: 5px solid rgb(255, 0, 0);
+        }
+
+        section,
+        header,
+        hgroup,
+        footer,
+        nav,
+        article,
+        aside,
+        figure,
+        figcaption,
+        .section,
+        .header,
+        .hgroup,
+        .footer,
+        .nav,
+        .article,
+        .aside,
+        .figure,
+        .figcaption {
+            border: 1px solid rgb(255, 255, 255);
+            background-color: rgba(153, 153, 153, .25);
+            display: block;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        section,
+        aside,
+        .section,
+        .aside {
+            float: left;
+        }
+
+        header,
+        footer,
+        .header,
+        .footer {
+            clear: both;
+        }
+
+        #pagecontent {
+            margin: 0 auto;
+            max-width: 1045px;
+            min-width: 480px;
+            width: 100%;
+        }
+
+        #pageheader,
+        #pagefooter {
+            max-width: 1020px;
+            min-width: 480px;
+            width: 100%;
+        }
+
+        #sectioncontent1 {
+            max-width: 600px;
+            min-width: 400px;
+            width: 100%;
+
+        }
+
+        #asidecontent1 {
+            max-width: 400px;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="pagecontent" class="pagecontent">
+
+        <header id="pageheader" class="header pageheader">
+            <hgroup id="pagehgroup" class="pagehgroup">
+                <h1 class="sitename"><a href="/" rel="home" title="Home">HTML5 Structure</a></h1>
+                <h2 class="subtitle">Page Header</h2>
+            </hgroup>
+
+            <nav id="globalnav" class="nav globalnav">
+                <p>Navigation</p>
+            </nav>
+        </header>
+
+        <section id="sectioncontent1" class="section sectioncontent">
+            <header id="sectionheader1" class="header sectionheader">
+                <h2>Section Header</h2>
+            </header>
+
+            <article id="articlecontent1" class="article articlecontent">
+                <header id="articleheader1" class="header articleheader">
+                    <h3>Article Header</h3>
+                </header>
+                <p>Article</p>
+                <figure id="figure1" class="figure">
+                    <p>Figure</p>
+                    <figcaption>Figure Caption</figcaption>
+                </figure>
+                <footer id="articlefooter1" class="footer articlefooter">
+                    <p>Article footer</p>
+                </footer>
+            </article>
+
+            <article>
+                <header id="articleheader2" class="header articleheader">
+                    <h3>Article Header</h3>
+                </header>
+                <p>Article</p>
+                <figure id="fugure2" class="figure">
+                    <p>Figure</p>
+                    <figcaption>Figure Caption</figcaption>
+                </figure>
+                <footer id="articlefooter2" class="footer articlefooter">
+                    <p>Article footer</p>
+                </footer>
+            </article>
+
+            <footer id="sectionfooter1" class="footer sectionfooter">
+                <p>Section Footer</p>
+            </footer>
+        </section>
+
+        <aside id="asidecontent1" class="aside asidecontent">
+            <header class="header sectionheader">
+                <h2>Aside Header</h2>
+            </header>
+
+            <article>
+                <header class="header articleheader">
+                    <h3>Aside Article Header</h3>
+                </header>
+                <p>Aside Article Copy</p>
+                <footer id="articlefooter2" class="footer articlefooter">
+                    <p>Aside Article footer</p>
+                </footer>
+            </article>
+
+            <article>
+                <header class="header articleheader">
+                    <h3>Aside Article Header</h3>
+                </header>
+                <p>Aside Article Copy</p>
+                <footer class="footer articlefooter">
+                    <p>Aside Article footer</p>
+                </footer>
+            </article>
+
+            <article>
+                <header class="header articleheader">
+                    <h3>Aside Article Header</h3>
+                </header>
+                <p>Aside Article Copy</p>
+                <footer class="footer articlefooter">
+                    <p>Aside Article footer</p>
+                </footer>
+            </article>
+
+            <footer class="footer articlefooter">
+                <p>Aside footer</p>
+            </footer>
+        </aside>
+
+        <footer id="pagefooter" class="footer pagefooter">
+            <p>Page Footer</p>
+        </footer>
+    </div>
+</body>
+
+</html>
