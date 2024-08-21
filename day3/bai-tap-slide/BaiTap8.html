@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        #wrapper,
+        body *{
+            border: solid 0.5px;
+        }
+
+        #wrapper{
+            margin: 8px;
+            padding: 8px;
+        }
+
+        header {
+            width: 100%;
+            margin-bottom: 4px;
+        }
+
+        nav {
+            display: inline-block;
+            width: 20%;
+            height: 300px;
+        }
+
+        main {
+            display: inline-block;
+            width: calc(80% - 4px);
+            height: 300px;
+        }
+
+        footer {
+            margin-top: 4px;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header> header</header>
+        <nav> nav</nav>
+        <main> main</main>
+        <footer> footer</footer>
+    </div>
+</body>
+
+</html>
